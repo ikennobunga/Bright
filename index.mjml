@@ -1,17 +1,177 @@
 <mjml>
   <mj-head>
+    <mj-title>Bright</mj-title>
     <mj-attributes>
-      
+      <mj-section padding="0" background-color="#F9F9F9"/>
+      <mj-image padding="0"/>
+       <mj-button background-color="#111" color="#f3b656" font-family="Open sans, sans-serif" font-size="16px" align="center" padding="15px 20px" width="190px" height="40px" text-transform="uppercase" letter-spacing="2px"/>
+      <mj-class name="heading" font-family="Big Caslon, serif, times" font-size="40px" line-height="36px" align="center" text-transform="uppercase"/>
+      <mj-text font-family="Open Sans, arial, sans serif" font-size="16px" line-height="24px">
     </mj-attributes>
+
+    <mj-style>
+      .carousel {
+        padding: 30px 100px;
+      }
+      @media(max-width: 480px) {
+        .footer {
+            padding-left: 30px;
+        }
+        .headingMobile {
+          font-size: 20px !important;
+          line-height: 28px;
+          padding: 0 30px;
+        }
+      }
+    </mj-style>
   </mj-head>
 
-  <mj-body>
+  <mj-body background-color="#fff">
+  <!-- Header -->
     <mj-section>
       <mj-column>
-        <mj-text>
-          <p>kenn</p>
-        </mj-text>
+        <mj-image src="https://i.ibb.co/R07TnD7/Bright3.png" alt="logo" width="150" padding="30px"/>
       </mj-column>
     </mj-section>
+
+    <!-- Hero -->
+      <mj-section background-color="#000" border-radius="4px">
+        <mj-column>
+          <mj-image src="https://i.ibb.co/s5W1tjJ/fashionshow-3.png" alt="Model"/>
+        </mj-column>
+      </mj-section>
+
+      <!-- Heading -->
+      <mj-section padding="30px 0px 0px">
+        <mj-column>
+          <mj-text mj-class="heading">
+            <p>the <br> wait <br> is over</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-text align="center" padding="0 60px">
+            <p>Due to popular demand, our best-selling sandal is back. Get yours before they sell out again</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Carousel -->
+      <mj-section>
+        <mj-column width="550px">
+          <mj-carousel tb-border-radius="0px" tb-hover-border-color="red" tb-width="50px" tb-border="0px" left-icon="https://static.cdn.responsys.net/i2/responsysimages/uggs/contentlibrary/promotional/2017/06-june/20170615_u_royale-b/images/arrow-left.png" right-icon="https://static.cdn.responsys.net/i2/responsysimages/uggs/contentlibrary/promotional/2017/06-june/20170615_u_royale-b/images/arrow-right.png" icon-width="16px">
+            <mj-carousel-image css-class="carousel" href="#" thumbnails-src="" src="https://i.ibb.co/j3486z8/chan-579605-unsplash.jpg"/>
+            <mj-carousel-image css-class="carousel" href="#" thumbnails-src="" src="https://i.ibb.co/pWgT8st/kunj-parekh-569452-unsplash.jpg"/>
+            <mj-carousel-image css-class="carousel" href="#" thumbnails-src="" src="https://i.ibb.co/ySsNMKs/pete-bellis-262617-unsplash.jpg"/>
+            <mj-carousel-image css-class="carousel" href="#" thumbnails-src="" src="https://i.ibb.co/mF8N2yV/shamim-nakhai-69202-unsplash.jpg"/>
+          </mj-carousel>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-text text-transform="uppercase" color="#A1AABC" align="center" font-size="14px" padding="0px">
+            <p>select your style</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Enter to Win -->
+      <mj-section padding-top="60px">
+        <mj-column width="270px">
+          <mj-image src="https://i.ibb.co/y0qZ2dy/tanja-heffner-300859-unsplash.jpg" alt="Models" border-radius="4px"/>
+        </mj-column>
+        <mj-column>
+          <mj-text mj-class="heading" font-size="30px">
+            <p class="headingMobile">bright vintage collection back in stock</p>
+            <p style="font-size: 14px; text-transform: none; line-height: 22px; padding: 0px"> Enter for a 50% discount coupond and a $200 Bright Giftcard</p>
+          </mj-text>
+          <mj-button>
+            <mj-text>
+              enter to win
+            </mj-text>
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Earn Points -->
+      <mj-section padding-top="30px">
+        <mj-column>
+          <mj-text text-transform="uppercase" align="center" font-weight="bold">
+            <p>earn points</p>
+            <p>when you shop, share, review products</p>
+            <p style="color: #f3b656"><u>join now</u></p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Find Store -->
+      <mj-section>
+        <mj-column padding-bottom="20px">
+          <mj-image src="https://static.cdn.responsys.net/i2/responsysimages/uggs/contentlibrary/promotional/2017/06-june/20170615_u_royale-b/images/find-a-store.gif" alt="Find Store" width="168px"/>
+        </mj-column>
+      </mj-section>
+
+      <!-- Footer -->
+      <mj-section css-class="footer" padding-right="30px">
+        <mj-column >
+          <mj-button width="180px">
+            <mj-text>
+              women
+            </mj-text>
+          </mj-button>
+        </mj-column>
+
+        <mj-column>
+          <mj-button width="180px">
+            <mj-text>
+              men
+            </mj-text>
+          </mj-button>
+        </mj-column>
+
+        <mj-column>
+          <mj-button width="180px"> 
+            <mj-text>
+              kids
+            </mj-text>
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="10px">
+        <mj-column>
+          <mj-text align="center" text-transform="uppercase" padding="0px">
+            <p>free shipping free returns</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text align="center">
+            <img src="https://static.cdn.responsys.net/i2/responsysimages/uggs/contentlibrary/promotional/2017/06-june/20170615_u_royale-b/images/share-facebook.gif" alt="facebook" width="40px">
+            <img src="https://static.cdn.responsys.net/i2/responsysimages/uggs/contentlibrary/promotional/2017/06-june/20170615_u_royale-b/images/share-instagram.gif" alt="instagram" width="40px">
+            <img src="https://static.cdn.responsys.net/i2/responsysimages/uggs/contentlibrary/promotional/2017/06-june/20170615_u_royale-b/images/share-pinterest.gif" alt="pintrest" width="40px">
+            <img src="https://static.cdn.responsys.net/i2/responsysimages/uggs/contentlibrary/promotional/2017/06-june/20170615_u_royale-b/images/share-twitter.gif" alt="twitter" width="40px">
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-bottom="80px">
+        <mj-column>
+          <mj-text align="center" font-size="12px" padding="0">
+            <p>We only send emails to individuals who have registered at our site: <a href="#" style="color: #f3b656">www.bright.bright</a></p>
+            <p style="font-weight: bold; margin: 0px">1.778.777.999</p>
+            <p style="margin: 0px">444 East Doha Street, Old airport rd</p>
+            <p style="margin: 0px; font-weight: bold">
+              <a href="" style="color: #000">Private Policy</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+              <a href="" style="color: #000">Unsubscribe</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+              <a href="" style="color: #000">View in Browser</a>
+            </p>
+          </mj-text>
+          <mj-divider width="20px" padding="20px 0" border-width="2px" border-color="#000000"></mj-divider>
+        </mj-column>
+      </mj-section>
   </mj-body>
 </mjml>
