@@ -11,7 +11,7 @@
 
     <mj-style>
       .carousel {
-        padding: 30px 100px;
+        padding: 20px 100px;
       }
       @media(max-width: 480px) {
         .footer {
@@ -22,6 +22,13 @@
           line-height: 28px;
           padding: 0 30px;
         }
+        .carousel { 
+          padding: 20px 40px;
+        }
+        .carousel, td {
+          padding-right: 19px;
+          padding-left: 19px;
+        }
       }
     </mj-style>
   </mj-head>
@@ -30,7 +37,7 @@
   <!-- Header -->
     <mj-section>
       <mj-column>
-        <mj-image src="https://i.ibb.co/R07TnD7/Bright3.png" alt="logo" width="150" padding="30px"/>
+        <mj-image src="https://i.ibb.co/R07TnD7/Bright3.png" alt="logo" width="150px" padding="30px"/>
       </mj-column>
     </mj-section>
 
@@ -160,7 +167,7 @@
 
       <mj-section padding-bottom="80px">
         <mj-column>
-          <mj-text align="center" font-size="12px" padding="0">
+          <mj-text align="center" font-size="12px" padding-right="50px" padding-left="50px">
             <p>We only send emails to individuals who have registered at our site: <a href="#" style="color: #f3b656">www.bright.bright</a></p>
             <p style="font-weight: bold; margin: 0px">1.778.777.999</p>
             <p style="margin: 0px">444 East Doha Street, Old airport rd</p>
