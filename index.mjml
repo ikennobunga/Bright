@@ -26,8 +26,8 @@
           padding: 20px 40px;
         }
         .carousel, td {
-          padding-right: 30px !important;
-          padding-left: 30px !important;
+          padding-right: 19px !important;
+          padding-left: 19px !important;
         }
       }
     </mj-style>
@@ -67,7 +67,7 @@
       <!-- Carousel -->
       <mj-section>
         <mj-column width="550px">
-          <mj-carousel tb-border-radius="0px" tb-hover-border-color="red" tb-width="50px" tb-border="0px" left-icon="https://i.ibb.co/TP1f5gR/Left-arrow.png" right-icon="https://i.ibb.co/2Khdsc1/Right-arrow.png" icon-width="26px" css-class="carousel">
+          <mj-carousel>
             <mj-carousel-image css-class="carousel" href="#" thumbnails-src="" src="https://i.ibb.co/j3486z8/chan-579605-unsplash.jpg"/>
             <mj-carousel-image css-class="carousel" href="#" thumbnails-src="" src="https://i.ibb.co/pWgT8st/kunj-parekh-569452-unsplash.jpg"/>
             <mj-carousel-image css-class="carousel" href="#" thumbnails-src="" src="https://i.ibb.co/ySsNMKs/pete-bellis-262617-unsplash.jpg"/>
